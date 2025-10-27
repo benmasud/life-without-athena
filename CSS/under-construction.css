@@ -1,0 +1,66 @@
+/* Reset basics */
+body {
+  margin:0;
+  padding:0;
+  font-family: "adobe-caslon-pro", Georgia, serif;
+  background: #f5f5f8;
+  color: #2b3a67;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.under-hero-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.under-logo-img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.under-site-title {
+  font-size: 36px;
+  margin:0;
+}
+
+.under-construction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.under-construction h2 {
+  font-size: 48px;
+}
+
+.under-construction p {
+  font-size: 20px;
+  color: #6b6f7a;
+}
+
+.btn {
+  padding: 12px 28px;
+  background: #2b3a67;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #1f2950;
+}
+
+.under-footer {
+  margin-top: 50px;
+  color: #6b6f7a;
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Acropolis Scribbles</title>
+
+  <!-- Adobe Caslon Pro -->
+  <link rel="stylesheet" href="https://use.typekit.net/ydb4ssm.css">
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/LOGO.png" />
+</head>
+
+<body>
+  <!-- Logo and Title -->
+  <header class="hero-header">
+    <img src="images/LOGO.png" alt="Acropolis Scribbles Logo" class="logo-img" />
+    <h1 class="site-title">Acropolis Scribbles</h1>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="../about-me-page/about-me.html">About Me</a></li>
+        <li><a href="../blog-page/blogs.html">Blogs</a></li>
+        <li><a href="../books-page/books.html">Books</a></li>
+        <li><a href="../article-page/articles.html">Articles</a></li>
+        <li><a href="">Donate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Description Section -->
+  <section class="container section description-section">
+    <p>
+      Is that little notebook you take everywhere, except instead of jotting random lunch orders or reminders to feed the cat, you’re doodling big thoughts inspired by a place where ideas were currency. Imagine walking through Athens, past ordinary homes, until you look up and see that rocky hill crowned by the Acropolis. It’s the ancient VIP table for philosophers, artists, and daydreamers, where everyone’s invited to drop their wildest theories or puzzle over life’s quirks.
+    </p>
+    <p>
+      Think of the Acropolis as Athens’ group chat: Socrates posts cryptic questions, Plato stirs up debates about reality, and someone in the back is sketching nonsense on marble, hoping it’s deep. "Scribbles" are exactly that—rough drafts of wisdom, quick sketched-out arguments, or those strange analogies that only make sense after a cup of strong Greek coffee.
+    </p>
+    <p>
+      This blog isn’t marble columns and polished arguments—it’s the casual napkin where genius sometimes starts. It’s where your “What if…?” and “Why not…?” ideas get their first messy home, just like ancient philosophers’ first drafts might have been. So Acropolis Scribbles is less a temple and more the local café table, bustling with everyday philosophy, half-baked thoughts, and pen-sketched curiosity that just might grow into something epic.
+    </p>
+  </section>
+
+  <!-- Blogs Section -->
+  <section id="blogs" class="container section">
+    <h2>Blogs</h2>
+    <div id="posts">
+      <article class="post-card">
+        <h3><a href="posts/first-post.html">First Light — On Beginnings</a></h3>
+        <p>A short reflection on why beginnings feel like small personal revolutions.</p>
+        <div class="post-meta">October 27, 2025 • personal</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Acropolis Scribbles</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
