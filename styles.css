@@ -198,7 +198,7 @@ a {
 /* Font import */
 @font-face {
   font-family: 'NY Irvin';
-  src: url('./fonts/NYIrvin.ttf') format('truetype'); /* Adjusted path for simpler structure */
+  src: url('/life-without-athena/fonts/NYIrvin.ttf') format('truetype'); /* Adjusted path for simpler structure */
   font-weight: normal;
   font-style: normal;
 }
