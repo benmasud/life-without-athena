@@ -21,7 +21,7 @@ body {
 }
 
 .under-logo-img {
-  width: 150px;
+  width: 160px;
   height: 150px;
   margin-bottom: 20px;
 }
@@ -63,4 +63,15 @@ body {
 .under-footer {
   margin-top: 50px;
   color: #6b6f7a;
+}
+
+@font-face {
+  font-family: 'NY Irvin';
+  src: url('../fonts/NYIrvin.ttf') format('truetype'); /* Adjusted path for simpler structure */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.under-site-title {
+  font-family: 'NY Irvin', serif;
 }
